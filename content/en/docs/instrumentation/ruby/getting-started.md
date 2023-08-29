@@ -19,9 +19,8 @@ Ensure that you have the following installed locally:
 - MRI Ruby >= `3.0`, jruby >= `9.3.2.0`, or truffleruby >= 22.1
 - [Bundler](https://bundler.io/)
 
-{{% alert  title="Warning" color="warning" %}} While tested, support for 
-`jruby` and `truffleruby` are on a best-effort basis at this time.
-{{% /alert %}}
+{{% alert  title="Warning" color="warning" %}} While tested, support for `jruby`
+and `truffleruby` are on a best-effort basis at this time. {{% /alert %}}
 
 ## Example Application
 
