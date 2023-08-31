@@ -146,7 +146,7 @@ func initMeterProvider() *sdkmetric.MeterProvider {
     }
 
     mp := sdkmetric.NewMeterProvider(sdkmetric.WithReader(sdkmetric.NewPeriodicReader(exporter)))
-    global.SetMeterProvider(mp)
+    otel.SetMeterProvider(mp)
     return mp
 }
 ```
